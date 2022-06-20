@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#03738C;
+}
+
+#botaoTarefa {
+    height: 25px;
+    width: 120px;
+    border-radius: 5%;
+    border: 2px solid #012E40;
+    background-color: #03738C;
+    color: #012E40;
+    font-size: 8pt;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+#inputTarefas{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+#tarefas{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+.delete{
+    height: 23px;
+    width: 50px;
+    font-size: 10pt;
+    float: right;
+    text-align: center;
+    display: flex;
+}
+.tarefa{
+    height: 40px;
+    background-color:#C2D6EB;
+    padding-top:20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5%;
+}
+#checkbox:checked{
+    text-decoration: line-through;
+}
